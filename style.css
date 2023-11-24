@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  .nav h1 {
+    color: rgb(29, 29, 116);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+
+  }
+
+  .nav a {
+    background-color: lightblue;
+    text-decoration: none;
+    color: rgb(29, 29, 116);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 1cm;
+    padding: 5px;
+    margin: 20px;
+  }
+
+
+
+  .nav img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 1cm;
+    margin-top: 20px;
+  }
+
+  .whole {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), darkgrey, grey, white);
+    padding: 15px;
+    height: 700px;
+    box-shadow: inset 0 0 15px var(--box-bg), 0 0 15px var(--box-bg);
+  
+  
+  }
+
+  main {
+    background: linear-gradient(white, grey, darkgray, lightblue, blue, darkblue);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .huot-beg h2, .huot-mid h2, .huot-sum h2 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+  }
+
+  .huot-beg p, .huot-mid p, .huot-sum p {
+    color: black;
+    background-color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .img-huot img {
+    display: inline-block;
+    width: 465px;
+    height: 665px;
+    object-fit: cover;
+    border: 2px solid black;
+    margin-top: 20px;
+  }
+
+  .footer {
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+  }
